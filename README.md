@@ -1,5 +1,43 @@
 # Sensor Fusion Self-Driving Car Course
 
+Course 1: Lidar
+Process raw lidar data with filtering, segmentation, and clustering to detect other vehicles on the
+road. Understand how to implement Ransac with planar model fitting to segment point clouds. Also
+implement Euclidean clustering with a KD-Tree to cluster and distinguish vehicles and obstacles..
+
+Introduction to Lidar & Point Clouds
+What You’ll Learn This Week:
+● Lidar data representation
+● Working with a simulator to create PCD
+● Visualizing Lidar data
+Week Two Point Cloud
+Segmentation
+What You’ll Learn This Week:
+● Using PCL to segment point clouds
+● The RANSAC algorithm for planar model fitting
+Week Three Clustering
+Obstacles
+What You’ll Learn This Week:
+● Using PCL to cluster obstacles
+● Using a KD-Tree to store point cloud data
+● Implementing Euclidean Clustering to find clusters
+● Applying bounding boxes around clusters
+Week Four
+Working with Real
+Point Cloud Data
+(PCD)
+What You’ll Learn This Week:
+● Working with real self-driving car PCD data
+● Filtering PCD data
+● Playing back multiple PCD files
+● Applying point cloud processing to detect obstacles
+Course
+Final
+Project
+Lidar Obstacle
+Detection Filter, segment, and cluster real point cloud data to detect
+obstacles in a driving environment.
+
 ## Welcome to the Sensor Fusion course for self-driving cars.
 
 In this course we will be talking about sensor fusion, whch is the process of taking data from multiple sensors and combining it to give us a better understanding of the world around us. we will mostly be focusing on two sensors, lidar, and radar. By the end we will be fusing the data from these two sensors to track multiple cars on the road, estimating their positions and speed.
